@@ -1,0 +1,602 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  width: auto;
+  padding: 0px;
+}
+
+hr {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* hr */
+
+.between-about-resume {
+  border: 2px solid #454545;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+
+/* navbar section */
+
+.coloured-section {
+  background-color: #454545;
+}
+
+.navbar{
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  padding:0px;
+  background-color: #454545;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding: 0px 0px ;
+  padding-right: 20px;
+}
+
+/* Introduction Section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url('images/new-background2-2.jpg');
+}
+
+.home {
+  padding: 200px 150px;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+/* about section */
+
+.about-section {
+  width: 100%;
+  height: auto;
+  padding: 20px 15px 25px;
+}
+
+.headings {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 50px 15px 15px;
+}
+
+.profile-image {
+  text-align: center;
+   height: 380px;
+   width: 100%;
+   border: 10px solid #454545;
+   margin-bottom: 10px;
+}
+
+.about-me-text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+
+}
+
+/* Resume */
+
+.resume-resume {
+  margin: 0px;
+  width: auto;
+  padding: 20px 15px;
+}
+
+.resume {
+  padding: 20px;
+}
+
+.resume-btn {
+  padding: 40px 500px;
+}
+.paragraph-resume {
+  padding: 30px;
+  font-size: 1.2rem;
+}
+/* Certifications Section */
+
+.certification {
+  background-color: #454545;
+  color: white;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.nanotech-img {
+  height: 50%;
+  width: 95%;
+}
+
+.card {
+  /* padding: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%; */
+  margin: 5px;
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.certification-2nd-row {
+  padding-bottom: 0px;
+}
+
+.last-certification-see-more {
+  background-color: #454545;
+  text-align:center;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.last-certification-see-more-text {
+  color: yellow;
+}
+
+.last-certification-see-more-text:hover {
+  color: white;
+  text-decoration: inherit;
+}
+
+.adjust-photo-phd {
+  margin-top: 100px;
+}
+
+.adjust-photo-BSc {
+  margin-top: 150px;
+}
+
+.adjust-photo-yuva {
+  margin-top: 170px;
+}
+
+.adjust-photo-mavipa {
+  margin-top: 270px;
+}
+
+.adjust-photo-reviewer {
+  margin-top: 190px;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* Research and Development Section */
+.r-d {
+  padding: 20px 15px;
+}
+
+.same-class-cards {
+  text-align: center;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.patent-drawing {
+  height: 500px;
+  width: 500px;
+  border: 2px solid;
+  margin: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 0px;
+}
+
+.copyrights {
+  text-align: center;
+}
+
+.copyright-image {
+  height: 700px;
+  width: 700px;
+  border: 2px solid;
+  margin: 5px;
+}
+
+.adjust-photo-book {
+    margin-top: 120px;
+}
+
+/* Physics Notes */
+
+h2 {
+  text-align: center;
+}
+
+.notes-row {
+    padding-top: 2%;
+    padding-bottom: 0px;
+}
+
+.notes {
+  background-color: #454545;
+  text-align: center;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.notes-see-more {
+  background-color: #454545;
+  text-align:center;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.notes-see-more-text {
+  color: yellow;
+}
+
+.notes-see-more-text:hover {
+  color: white;
+  text-decoration: inherit;
+}
+
+.see-more-about-me {
+  padding: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.more-about-me-text {
+  color: black;
+}
+
+.more-about-me-text:hover {
+  color: blue;
+  text-decoration: inherit;
+}
+
+.physics-notes {
+  background-color: #454545;
+}
+
+.colored-title {
+  color: white;
+}
+
+
+/* Footer Section */
+
+.container-footer {
+  border: 10%;
+  padding: 3%;
+  letter-spacing: 0.3em;
+  font-size: 25px;
+}
+
+
+.footer-icon {
+  color: #fff;
+  transition: transform .2s;
+}
+
+.footer-icon:hover {
+transform: scale(1.9);
+}
+
+.footer {
+  color: #fff;
+  background-color: #454545;
+  text-align: center;
+}
+.footer-text {
+  padding-bottom: 20px;
+}
+
+.footer-a {
+  color: #fff;
+}
+
+.footer-a:hover {
+  color: #fff;
+}
+
+.copy-rights {
+  margin-bottom: 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+b {
+  font-size: 1.25rem;
+}
+b:hover {
+  color: yellow;
+  text-decoration: inherit;
+}
+
+/* Educational Documents */
+
+.card-margin {
+  margin: 15%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+/* Expert Talk */
+
+.expert-talk-row {
+  text-align: center;
+}
+
+.extra-padding {
+  padding: 0px 30px;
+}
+
+/* responsive Media Query */
+@media (min-width: 720px) and (max-width: 900px) {
+  .profile-image {
+    width: 65%;
+    height: 430px;
+    margin: auto;
+    }
+  .profile-img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .paragraph-responsive {
+    padding-top: 30px;
+    font-size: 1.26rem;
+  }
+  .adjust-photo-reviewer {
+    margin-top: 150px;
+  }
+  .copyright-image {
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    margin: 5px;
+  }
+  .patent-drawing {
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    margin: 5px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  .resp-text {
+    font-size: 1.26rem;
+  }
+  .adjust-photo-mavipa {
+    margin-top: 200px;
+  }
+  .home {
+    padding: 180px 120px;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .resume-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
+  * {
+    overflow: auto;
+  }
+  body {
+    width: 100vw;
+  }
+  .home {
+    padding: 200px 15px 200px 60px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero {
+    width: auto;
+    height: auto;
+    background-size: 100% 100%;
+    background-image: url('images/background2.jpg');
+  }
+  .headings {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 50px 15px 15px;
+  }
+  .row{
+    display: block;
+  }
+  .profile-image {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .certification {
+    /* padding: 30px; */
+    padding: 5px;
+  }
+  .paragraph-responsive {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 25px;
+  }
+  .adjust-photo-phd {
+    margin-top: 20px;
+  }
+  .adjust-photo-yuva {
+    margin-top: 5px;
+  }
+  .adjust-photo-mavipa {
+    margin-top: 20px;
+  }
+  .adjust-photo-BSc {
+    margin-top: 20px;
+  }
+  .adjust-photo-reviewer {
+    margin-top: 30px;
+  }
+  .adjust-photo-book {
+    margin-top: 20px;
+  }
+  .copyright-image {
+    height: 360px;
+    width: 360px;
+    border: 2px solid;
+    margin: 5px;
+  }
+  .patent-drawing {
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    margin: 5px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  .footer {
+    color: #fff;
+    background-color: #454545;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .container-footer {
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .copy-rights {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+  }
+  .copyright-text {
+    font-size: 33px;
+  }
+  .certification {
+    padding-bottom: 10px;
+  }
+  .certificate-certificate {
+    padding: 0px 15px;
+  }
+  .container-fluid-certificate {
+    padding: 20px;
+  }
+  .resume {
+    padding: 0px;
+  }
+  .paragraph-resume {
+    padding: 0px 15px;
+  }
+  .resume-btn {
+    padding: 0 50px 10px 50px;
+  }
+  .heading-certification {
+    overflow: auto;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  b {
+    font-size: 1.25rem;
+      color: yellow;
+  }
+  b:hover {
+    color: white;
+    text-decoration: inherit;
+  }
+  h2, h4 {
+    padding: 2px;
+  }
+  .navbar-brand {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 2.0rem;
+    font-weight: bold;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 10px;
+  }
+  .nav-link:hover {
+    color: #fff;
+  }
+
+}
