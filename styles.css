@@ -27,11 +27,11 @@ hr {
   background-color: #454545;
 }
 
-.navbar{
+.navbar {
   top: 0;
   position: fixed;
   z-index: 1;
-  padding:0px;
+  padding: 0px;
   background-color: #454545;
   width: 100%;
 }
@@ -39,7 +39,7 @@ hr {
 .navbar-brand {
   color: #fff;
   padding-left: 20px;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 .navbar-nav {
   margin-left: auto;
-  padding: 0px 0px ;
+  padding: 0px 0px;
   padding-right: 20px;
 }
 
@@ -64,7 +64,7 @@ hr {
   width: 100%;
   height: 100vh;
   background-size: 100% 100%;
-  background-image: url('images/new-background2-2.jpg');
+  background-image: url("images/new-background2-2.jpg");
 }
 
 .home {
@@ -82,7 +82,7 @@ hr {
 }
 
 .headings {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat-Bold", sans-serif;
   font-weight: 500;
   font-size: 2.8rem;
   line-height: 1.5;
@@ -92,10 +92,10 @@ hr {
 
 .profile-image {
   text-align: center;
-   height: 380px;
-   width: 100%;
-   border: 10px solid #454545;
-   margin-bottom: 10px;
+  height: 380px;
+  width: 100%;
+  border: 10px solid #454545;
+  margin-bottom: 10px;
 }
 
 .about-me-text {
@@ -108,7 +108,6 @@ ul {
   padding-left: 20px;
   padding-top: 20px;
   text-decoration: none;
-
 }
 
 /* Resume */
@@ -150,7 +149,7 @@ ul {
   padding-top: 2%;
   padding-bottom: 2%; */
   margin: 5px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .card:hover {
@@ -168,7 +167,7 @@ ul {
 
 .last-certification-see-more {
   background-color: #454545;
-  text-align:center;
+  text-align: center;
   padding: 20px;
   font-size: 1.3rem;
   font-weight: bold;
@@ -246,7 +245,7 @@ ul {
 }
 
 .adjust-photo-book {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 /* Physics Notes */
@@ -256,8 +255,8 @@ h2 {
 }
 
 .notes-row {
-    padding-top: 2%;
-    padding-bottom: 0px;
+  padding-top: 2%;
+  padding-bottom: 0px;
 }
 
 .notes {
@@ -270,7 +269,7 @@ h2 {
 
 .notes-see-more {
   background-color: #454545;
-  text-align:center;
+  text-align: center;
   padding: 20px;
   font-size: 1.3rem;
   font-weight: bold;
@@ -309,7 +308,6 @@ h2 {
   color: white;
 }
 
-
 /* Footer Section */
 
 .container-footer {
@@ -319,14 +317,13 @@ h2 {
   font-size: 25px;
 }
 
-
 .footer-icon {
   color: #fff;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .footer-icon:hover {
-transform: scale(1.9);
+  transform: scale(1.9);
 }
 
 .footer {
@@ -378,13 +375,14 @@ b:hover {
   padding: 0px 30px;
 }
 
+
 /* responsive Media Query */
 @media (min-width: 720px) and (max-width: 900px) {
   .profile-image {
     width: 65%;
     height: 430px;
     margin: auto;
-    }
+  }
   .profile-img-responsive {
     display: block;
     margin-left: auto;
@@ -440,7 +438,7 @@ b:hover {
   }
 }
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 200px) and (max-width: 720px) {
   * {
     overflow: auto;
   }
@@ -460,17 +458,17 @@ b:hover {
     width: auto;
     height: auto;
     background-size: 100% 100%;
-    background-image: url('images/background2.jpg');
+    background-image: url("images/background2.jpg");
   }
   .headings {
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 1.5;
     text-align: center;
     padding: 50px 15px 15px;
   }
-  .row{
+  .row {
     display: block;
   }
   .profile-image {
@@ -478,6 +476,7 @@ b:hover {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
   }
   .certification {
     /* padding: 30px; */
@@ -545,9 +544,6 @@ b:hover {
   .copyright-text {
     font-size: 33px;
   }
-  .certification {
-    padding-bottom: 10px;
-  }
   .certificate-certificate {
     padding: 0px 15px;
   }
@@ -570,19 +566,20 @@ b:hover {
   }
   b {
     font-size: 1.25rem;
-      color: yellow;
+    color: yellow;
   }
   b:hover {
     color: white;
     text-decoration: inherit;
   }
-  h2, h4 {
+  h2,
+  h4 {
     padding: 2px;
   }
   .navbar-brand {
     color: #fff;
     padding-left: 20px;
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .navbar-toggler {
@@ -598,5 +595,7 @@ b:hover {
   .nav-link:hover {
     color: #fff;
   }
-
+  .card:hover {
+    transform: none;
+  }
 }
