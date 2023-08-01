@@ -1,21 +1,33 @@
 
-// Select the navbar links that you want to add the scrolling effect to
 const navbarLinks = document.querySelectorAll('.navbar a');
 
-// Add click event listeners to the navbar links
 navbarLinks.forEach(link => {
   link.addEventListener('click', e => {
-    // Prevent the default behavior of the link
     e.preventDefault();
-
-    // Get the target element that the link should scroll to
     const targetId = link.getAttribute('href');
     const targetElement = document.querySelector(targetId);
-
-    // Scroll to the target element with a smooth animation
     targetElement.scrollIntoView({
       behavior: 'smooth'
     });
+  });
+});
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  const sections = document.querySelectorAll('section');
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+      const targetId = '#' + section.getAttribute('id');
+      navbarLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === targetId) {
+          link.classList.add('active');
+        }
+      });
+    }
   });
 });
 
